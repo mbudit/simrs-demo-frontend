@@ -1,0 +1,7 @@
+services:
+  simrs-demo-frontend:
+    image: gitlab.lan:5050/simtechdev/simrs-demo-frontend:latest
+    container_name: simrs-demo-frontend
+    restart: unless-stopped
+    ports:
+      - "8090:80"
