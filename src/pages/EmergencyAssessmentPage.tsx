@@ -1,4 +1,4 @@
-import { FormEvent, useMemo, useState } from 'react'
+import { type FormEvent, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router'
 import { getRegistrationById } from '../lib/registrationStorage'
 import {
